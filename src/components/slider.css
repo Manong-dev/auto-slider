@@ -1,0 +1,78 @@
+.Carousel{
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+}
+
+.Inner {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(0, 0, 0));
+}
+
+.Inner .left {
+  flex: 5%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.info__container {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Inner .title__center {
+  flex: 90%;
+  margin-top: 25rem;
+}
+.Inner .title__center h1 {
+  margin: 0 auto;
+  padding: 5px 30px ;
+  font-size: clamp(30px, 4vw, 75px);
+  color:white;
+  border-radius: 5px;
+  letter-spacing: 15px;
+}
+
+.Inner .text__center {
+  width: 100%;
+  color:white;
+  border-radius: 5px;
+  font-size: clamp(25px, 4vw, 45px);
+  letter-spacing: 15px;
+}
+
+.Inner .right {
+  flex: 5%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.bottom {
+  display: flex;
+  height: 20%;
+  max-width: 100vw;
+  cursor: pointer;
+  background-color:rgb(41, 36, 36);
+}
+
+.bottom img {
+  height: 100%;
+  width: 100%;
+}
